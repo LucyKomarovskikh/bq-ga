@@ -1,0 +1,5 @@
+cron:
+- description: process queue
+  url: /tasks/process_queue
+  schedule: every 5 mins
+  target: default
