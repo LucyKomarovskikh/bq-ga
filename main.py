@@ -46,7 +46,7 @@ class MainHandler(webapp2.RequestHandler):
         else:
             params['je'] = False
         if 'dl' not in params:
-            params['dl'] = 'https://en.bitcoinwiki.org/'
+            params['dl'] = 'your_url'
 
         parsed_url = urlparse(params['dl'])
 
